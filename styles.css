@@ -1,11 +1,3 @@
-/* body{
-    color:red;
-} */
-
-/* h1{
-    color: blue;
-} */
-
 
 /*  Adding the background to the body */
 
@@ -14,17 +6,19 @@
 }*/
 
 :root {
-    --primary-color: #7C3AED;
+    --primary-color: #0023cf;
     --dark-gray: #6B7280;
     --offwhite: #E5E7EB;
 }
 
 /* Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;    
+    background-color: black;
+    color: white;
 }
 
 hr {
@@ -40,7 +34,12 @@ hr {
 
 .container-center {
     max-width: 600px;
-    margin: auto;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 1.6em;
 }
 
 .container-margin{
@@ -61,17 +60,13 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-   }
+}
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
-
-/* .link-margin{
-    margin-top: 2rem;
-} */
 
 /* List */
 .non-bullet-list {
@@ -80,7 +75,7 @@ hr {
 
 /* For inline list  */
 /* use class attribute in li tag
-         and set display:inline*/
+and set display:inline*/
 
 .list_item_inline {
     display: inline;
@@ -120,9 +115,10 @@ hr {
 }
 
 .hero .hero-image {
-    max-width: 350px;
+    max-width: 199px;
     display: block;
     margin: auto;
+    border-radius: 50%;
 }
 
 .hero .hero-heading {
@@ -144,10 +140,10 @@ hr {
 .section h1 {
     text-align: center;
 }
-
+/* 
 .ow {
     background-color: var(--offwhite);
-}
+} */
 
 /* Footer */
 
@@ -170,4 +166,8 @@ hr {
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.blog{
+    overflow-wrap: normal;
 }
