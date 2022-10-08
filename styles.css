@@ -42,6 +42,10 @@ h1{
     font-size: 1.6em;
 }
 
+small{
+    margin-top: 0%;
+}
+
 .container-margin{
     padding-top: 1rem;
     padding-bottom: 1rem;
