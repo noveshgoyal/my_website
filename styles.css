@@ -175,3 +175,9 @@ and set display:inline*/
 .blog{
     overflow-wrap: normal;
 }
+
+.code-img{
+    max-width: 80%;
+    display: block;
+    margin: auto;
+}
