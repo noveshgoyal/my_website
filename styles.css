@@ -77,13 +77,8 @@ small{
     list-style: none;
 }
 
-/* For inline list  */
-/* use class attribute in li tag
-and set display:inline*/
-
 .list_item_inline {
     display: inline;
-    /* padding: 0rem(for top&bottom) 0.5rem(for left&ri8) */
     padding: 0rem 0.5rem;
 }
 
@@ -144,12 +139,6 @@ and set display:inline*/
 .section h1 {
     text-align: center;
 }
-/* 
-.ow {
-    background-color: var(--offwhite);
-} */
-
-/* Footer */
 
 .footer{
     background-color: var(--primary-color);
@@ -170,14 +159,4 @@ and set display:inline*/
 
 .footer ul{
     padding-inline-start: 0px;
-}
-
-.blog{
-    overflow-wrap: normal;
-}
-
-.code-img{
-    max-width: 80%;
-    display: block;
-    margin: auto;
 }

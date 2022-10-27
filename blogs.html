@@ -22,52 +22,10 @@
         </ul>
     </nav>
 
-    <div class="container  container-margin">
-        <h1 style="text-align: center;">useState() in React</h1>
-        <p>Before hooks(version 16.8), functional components in react were known as stateless component, as there was no
-            way to handle the state in a function, the only way to handle the state was by using class components. But
-            now after the hooks introduction, functions can also have states and lifecycle.</p>
-        <div>
-            <em>A hook is a function which lets you use state, lifecycle methods and other react features.</em>
-            useState() is one of the most commonly used hooks.
-        </div>
-        <p>
-            <strong>useState():</strong> Also known as state hook, it provides a local state to the functional
-            component. It returns
-            a pair of values in an array, first is the current state value of the state variable and second is a
-            function to set that value. To use the state hook, we need to declare a state variable, which can only
-            be declared inside a function. </p>
-        <div>
-            <h3>Declaring a state variable: </h3>
-            <p>To declare a state variable first we need to import useState from react.
-                <div><em>import {UseState} from "react";</em></div>
-            </p>
-            <p>After importing we can declare a state variable inside a function.
-                <div><strong>const</strong> [<em>value, setValue</em>] = <strong>useState</strong>(<em>initial-value</em>)</div>
-            </p>
-            <p>As discussed earlier, useState returns two values. These values can be assigned by simply assigning a variable to the useState and assigning its first index to one variable and the second index to another elements like, <em>value = arr[0], setValue = arr[1]</em> also. The above used syntax is array destructuring which makes things more easier and readable. Here the only argument to the useState is the initial value which we want to assign to the current state <em>i.e</em> value.</p>
-        </div>
-        <div>
-            <h3>Updating the state:</h3>
-            <p>To update the state we have the setValue function.
-                <div>setValue( <em>code</em> )</div>
-            </p>
-        </div>
-        <div>
-            <h3>Reading the state:</h3>
-            <p>We can use the variable directly to display the state.
-                <div><em>{value}</em></div>
-            </p>
-        </div>
-        <div>
-           <p><strong>Example:</strong> Consider there is a number and two buttons clicking which will increase the number by one and by two and we want to show this number on the page.</p>
-           <p>Follow the above steps: <br> 1. <strong>Declaring the variable:</strong> const [number, setNumber] = useState(0)<br> 2. <strong>Update the state:</strong> setNumber(number+1), for button one and setNumber(number+2), for button two.<br>3. use the variable {number} to show the output. </p>
-           <p>After putting all the things together our code will look like:</p>
-            <div>
-                <img class="code-img" src="images/code.png" alt="Example code">
-            </div>
-            <p>Note that the state value gets refreshed whenever the user refreshes the page.</p>
-        </div>
+    <div class="container  container-center">
+        <h1>useState() in React</h1>
+        <p>Earlier, the major drawback of using the functional component in reactJS was the absence of state, but after hooks came into the action one would definitely choose functional components over class components. A hook is a built-in react function which lets you use the features of react library like state, lifecycle methods and context in functional component. useState is a hook which provides the state to a function, it lets you to reflect the changes in the DOM.</p>
+        <a class="link link-primary" href="https://f21gxr.csb.app/">Read More</a>
     </div>
 
 
